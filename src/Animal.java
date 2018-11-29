@@ -1,5 +1,6 @@
       
-public abstract class Animal              //must make the class abstract as well
+public abstract class Animal              //must make the class abstract as well b/c cannot instantiate
+                                         //AN ABSTRACT CLASS CANNOT BE INSTANTIATED
 {
 	private char gender;
 	
@@ -14,4 +15,5 @@ public abstract class Animal              //must make the class abstract as well
 //	}
 	
 	public abstract String speak();      //must override this method ONLY if you are extending the class
+	                                    
 }
